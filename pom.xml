@@ -33,7 +33,18 @@
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-web</artifactId>
     </dependency>
+    <dependency>
+      <groupId>com.amazonaws</groupId>
+      <artifactId>aws-java-sdk-sqs</artifactId>
+      <version>1.11.372</version>
+    </dependency>
+    <dependency>
+      <groupId>org.elasticmq</groupId>
+      <artifactId>elasticmq-rest-sqs_2.12</artifactId>
+      <version>0.14.1</version>
+    </dependency>
 
+    <!-- TEST dependencies -->
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-test</artifactId>
@@ -49,6 +60,4 @@
       </plugin>
     </plugins>
   </build>
-
-
 </project>
